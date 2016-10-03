@@ -1,0 +1,9 @@
+{% extends 'layout.html' %}
+{% block content %}
+<h1>UploadImage</h1>
+<ul>
+    {% for item in data %}
+    <li>{{ item.title }}</li>
+    {% endfor %}
+</ul>
+{% endblock %}
